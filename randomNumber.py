@@ -1,6 +1,7 @@
 
-import randomNumber
+import random
 
 
 def chooseNumber (start, end=None):
-    return randomNumber.randint(start, end)
+    return random.randint(start, end)
+
